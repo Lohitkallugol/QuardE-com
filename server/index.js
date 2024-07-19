@@ -11,7 +11,7 @@ const cookieParser = require("cookie-parser");
 // middlewares
 app.use(
   cors({
-    origin: "http://https://rx-Ecommerce.netlify.app",
+    origin: "http://localhost:3000",
     credentials: true,
   })
 );
