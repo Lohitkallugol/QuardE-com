@@ -4,7 +4,7 @@ const cors = require("cors");
 const productsroute = require("./Routes/products.routes");
 const userroute = require("./Routes/users.routes");
 const sellerroute = require("./Routes/seller.routes");
-const contactUsroute = require("./Routes/contactus.route");
+const contactUsroute = require("./Routes/contactUs.route");
 const paymentroute = require("./Routes/payment.route");
 const cookieParser = require("cookie-parser");
 
